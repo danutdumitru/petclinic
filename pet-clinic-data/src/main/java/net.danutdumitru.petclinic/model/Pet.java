@@ -1,4 +1,4 @@
-package model;
+package net.danutdumitru.petclinic.model;
 
 import java.time.LocalDate;
 
