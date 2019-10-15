@@ -1,5 +1,7 @@
 package net.danutdumitru.petclinic.model;
 
+import java.io.Serializable;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -7,6 +9,6 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class PetType extends BaseEntity {
-	private String name;
+public class BaseEntity implements Serializable {
+	private Long id;
 }
